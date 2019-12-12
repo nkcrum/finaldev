@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nick's Final Project</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+  <body>
+    <div id="entireHeader">
+      <div id="intro-panel">
+        <div id="intro-block">
+          <h1>Nick Crum's Webpage</h1>
+          
+        </div>
+      </div> 
+      <nav class="navbar navbar-expand-lg navbar-inverse">
+        <div id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="../index.html">Home</a>
+            <a class="nav-item nav-link" href="oldpage.html">Old Page</a>
+            <a class="nav-item nav-link" href="#">New Page</a>
+            <a class="nav-item nav-link" href="https://github.com/nkcrum/finalproject" target="_blank">See the Code</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="allContent">
+      <div class="info">
+        <h1> Solution: </h1>
+        <p>In my improvment I decided to make the grading question more specific, so students can specify whether they passed and what their grade should be. It makes the user experience more tailored to what they want. <br/><br/>
+      </div>
+      <div id="showcase">
+        <h4>What do you expect your final grade in the class to be?</h4>
+        <div id="gradeSelection">
+          <button type="button" class="btn btn-light grade" id="9">A</button>
+          <button type="button" class="btn btn-light grade" id="8">B</button>
+          <button type="button" class="btn btn-light grade" id="7">C</button>
+          <button type="button" class="btn btn-light grade" id="6">D</button>
+          <button type="button" class="btn btn-light grade fail" id="5">F</button>
+          <br/>
+          <button type="button" class="btn btn-light nonnum" >Pass</button>
+          <button type="button" class="btn btn-light nonnum">Credit</button>
+          <button type="button" class="btn btn-light nonnum">No Credit</button>
+        </div>
+        <br/>
+        <h4>Could you estimate your overall percentage?</h4>
+        <div id="moreDetail">
+          <button type="button" class="btn btn-light detail initialAvailable">N/A</button>
+          <button type="button" class="btn btn-light detail numdetail initialAvailable" id="minus">-</button>
+          <button type="button" class="btn btn-light detail numdetail initialAvailable" id="neutral" >-</button>
+          <button type="button" class="btn btn-light detail numdetail initialAvailable" id="plus">-</button>
+        </div>
+      </div>
+      <div id="console-box"> 
+      </div> 
+    <footer>
+      <div id="footer-block">
+        <p>Created by Nicholas Crum</p>
+        <p>2019</p>
+      </div>
+    </footer>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script  src="../js/index.js"></script>
+  </body>
+</html>
